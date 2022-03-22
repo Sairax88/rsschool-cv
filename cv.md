@@ -1,7 +1,6 @@
 # Vladislav Prikazchikov #
 Frontend Developer
 		
-	
 
 ## Contact Info ##
 * email: sairax88@mail.ru

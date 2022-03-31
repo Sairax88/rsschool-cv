@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+
+.wrapper {
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Times New Roman', 'Merriweather', sans-serif;
+}
+
+body, ul, h1, h2, h3, h4, p {
+margin: 0;
+padding: 0;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+h3{
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+h3:hover{
+    color: RGB(178,34,34);
+}
+
+body {
+    margin: 8px;
+}
+.wrapper {
+    width: 1024px;
+    box-shadow: 0 0 20px rgb(0 0 0);
+    margin: 0 auto;
+}
+header {
+    max-width: 1024px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid RGB(178,34,34);
+
+}
+
+
+.menu__item:hover {
+    color: RGB(178,34,34);
+    
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+.menu__item {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+    list-style-type: none;
+   
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+main {
+    max-width: 1024px;
+    
+}
+.name-foto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+    border-bottom: 2px solid RGB(178,34,34);
+  }
+
+.foto{
+    box-shadow: 0 0 20px rgb(0 0 0);
+    width: 300px;
+    height: 210px;
+}
+.about {
+   padding: 60px;
+   border-bottom: 2px solid RGB(178,34,34);
+   
+  
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.education {
+    width: 40%;
+    padding: 0 60px;
+}
+.english {
+    width: 40%;
+    padding: 0 30px;
+}
+.skills {
+    width: 40%;
+    padding: 0 60px;
+}
+.code {
+    width: 40%;
+    padding: 0 30px;
+ 
+}
+
+pre {
+    margin-left: -172px;
+}
+
+
+.contacts{
+    text-align: center;
+    border-bottom: 2px solid RGB(178,34,34); 
+    list-style-type: none;
+    line-height: 20px;
+ 
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer a {
+    padding: 0 30px;
+    text-decoration: none;
+}
+a:hover {
+    color: RGB(178,34,34);
+}
